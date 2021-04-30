@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+body h1 {
+  font-size: 2.5rem;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+body .form {
+  margin: 10px;
+}
+
+body .form input {
+  font-size: 1.6rem;
+}
+
+body .form .btn {
+  font-size: 1.6rem;
+}
+
+body .form > * {
+  outline: none;
+}
+
+body .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+body .container img {
+  object-fit: cover;
+  margin: 5px;
+  height: 325px;
+  width: 325px;
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
